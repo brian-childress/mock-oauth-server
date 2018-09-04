@@ -1,0 +1,48 @@
+{
+  "css": {
+    "allowed_file_extensions": ["css", "scss", "sass", "less"],
+    "end_with_newline": true,
+    "newline_between_rules": true,
+    "selector_separator": " ",
+    "selector_separator_newline": true,
+    "preserve_newlines": true,
+    "max_preserve_newlines": 10,
+    "indent_char": " ",
+    "indent_size": 2,
+    "wrap_line_length": 100
+  },
+  "html": {
+    "allowed_file_extensions": ["htm", "html", "xhtml", "shtml", "xml", "svg", "dust"],
+    "brace_style": "collapse",
+    "end_with_newline": true,
+    "indent_handlebars": true,
+    "indent_inner_html": false,
+    "indent_scripts": "keep",
+    "max_preserve_newlines": 10,
+    "preserve_newlines": true,
+    "unformatted": ["a", "span", "img", "code", "pre", "sub", "sup", "em", "strong", "b", "i", "u",
+      "strike", "big", "small", "pre", "h1", "h2", "h3", "h4", "h5", "h6"
+    ],
+    "indent_char": " ",
+    "indent_size": 2,
+    "wrap_line_length": 100
+  },
+  "js": {
+    "allowed_file_extensions": ["js", "json", "ts"],
+    "brace_style": "collapse,preserve-inline",
+    "break_chained_methods": false,
+    "end_with_newline": true,
+    "indent_level": 0,
+    "indent_with_tabs": false,
+    "preserve_newlines": true,
+    "max_preserve_newlines": 2,
+    "space_after_anon_function": false,
+    "space_before_conditional": true,
+    "space_in_empty_paren": true,
+    "space_in_paren": false,
+    "jslint_happy": true,
+    "indent_char": " ",
+    "indent_size": 2,
+    "wrap_line_length": 100
+  }
+}
